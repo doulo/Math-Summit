@@ -27,6 +27,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
 	line-height: 1;
 }
@@ -51,20 +53,31 @@ table {
 
 @media (min-width: 1080px){
 
+body {
+	max-width:1080px;
+	min-height: 100%;
+	margin:0 auto;
+	float: none;
+}
+
 .title {
 	font-family:"Myriad Set Pro";
-	margin-left:435px;
-	width: 1080px;
 }
 
-.title h1 {
+.localnav-title {
 	font-size: 36px;
 	padding-top: 28px;
+	padding-left: 23px;
 }
 
-.title ul {
-	margin-top: -20px;
-	margin-right: 58px;
+.nav-bar ul {
+	float: right;
+	margin-top: -22px;
+	margin-right: 81px;
+}
+
+.nav-bar ul li {
+	display: inline-block;
 }
 
 .title ul li {
@@ -78,16 +91,15 @@ table {
 
 #bar {
     position: absolute;
-    height: 28px;
+    height: 10px;
     border-bottom: 1px solid black;
-    width: 1080px;
+    width: 945px;
     overflow: hidden;
-    right: 26%;
+    right: 29.5%;
     margin-right:-40px;
     }
+  
 .header {
-	margin: 0 auto;
-	display: block;
 	text-align: center;
 	padding-top: 66px;
 }
@@ -111,7 +123,31 @@ table {
 	font-size: 24px;
 }
 
+.about-us{
+	text-align: center;
+	margin-top: 125px;
 }
+
+.about-us img {
+	float: left
+}
+
+.about-us h1 {
+	font-size: 50px;
+}
+
+.name {
+	float: left;
+}
+
+.info {
+	float: left;
+}
+
+.program {
+	padding-top:500px;
+}
+
 
 .overlay {
    background: url('images/ss.jpg') no-repeat;
@@ -124,4 +160,5 @@ table {
    height: 100%;
    width: 100%;
    }
+
 }
