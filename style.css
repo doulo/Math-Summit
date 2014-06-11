@@ -51,18 +51,20 @@ table {
 
 /*Desktop Display*/
 
-@media (min-width: 1080px){
+@media (min-width: 1080px){}
 
 body {
 	max-width:1080px;
 	min-height: 100%;
 	margin:0 auto;
-	float: none;
+	float: none;	
+	background: url('images/bg.jpg') no-repeat;
 }
 
 .title {
 	font-family:"Myriad Set Pro";
-}
+
+	}
 
 .localnav-title {
 	font-size: 36px;
@@ -90,13 +92,11 @@ body {
 }
 
 #bar {
-    position: absolute;
     height: 10px;
     border-bottom: 1px solid black;
     width: 951px;
     overflow: hidden;
-    right: 246px;
-    margin-right:-40px;
+	margin-left: 23px;    
     }
   
 .header {
@@ -148,7 +148,7 @@ body {
 	padding-top:500px;
 }
 
-
+/*
 .overlay {
    background: url('images/ss.jpg') no-repeat;
    position: fixed;
@@ -159,6 +159,5 @@ body {
    left: 0;
    height: 100%;
    width: 100%;
-   }
+   }*/
 
-}
