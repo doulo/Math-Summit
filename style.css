@@ -59,10 +59,14 @@ body {
 	margin:0 auto;
 	float: none;	
 	background: url('images/bg.jpg') no-repeat;
+	background-size: 100% auto;
+	background-position: center top;
+
 }
 
 .title {
 	font-family:"Myriad Set Pro";
+	color: white;
 
 	}
 
@@ -93,15 +97,16 @@ body {
 
 #bar {
     height: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     width: 951px;
     overflow: hidden;
-	margin-left: 23px;    
+	margin-left: 23px;   
     }
   
 .header {
 	text-align: center;
 	padding-top: 66px;
+	color: white;
 }
 
 .header h1 {
