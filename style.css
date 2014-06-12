@@ -53,28 +53,32 @@ table {
 
 @media (min-width: 1080px){}
 
-body {
-	max-width:1080px;
-	min-height: 100%;
+
+/*==================================================
+					BG
+==================================================*/
+.bg {
+	background-color: #fec56d;
 	margin:0 auto;
-	float: none;	
-	background: url('images/bg.jpg') no-repeat;
-	background-size: 100% auto;
-	background-position: center top;
-
+	float: none;
+	height:1105px;
 }
-
 .title {
 	font-family:"Myriad Set Pro";
 	color: white;
-
-	}
-
-.localnav-title {
-	font-size: 36px;
-	padding-top: 28px;
-	padding-left: 23px;
 }
+
+.title ul li {
+	float: left;
+	margin-top: 21px;
+	margin-left: 27px;
+}
+
+.title ul li a {
+	text-decoration:none;
+	color: white;
+}
+
 
 .nav-bar ul {
 	float: right;
@@ -86,21 +90,12 @@ body {
 	display: inline-block;
 }
 
-.title ul li {
-	float:right;
-	width: 80px;
-	font-size: 14px;
-	margin-top
-	display: inline-block;
-	text-decoration: none;
-}
-
 #bar {
     height: 10px;
     border-bottom: 1px solid white;
-    width: 951px;
-    overflow: hidden;
-	margin-left: 23px;   
+    width: 240px;
+	margin-left: 23px;
+	padding-top: 33px;   
     }
   
 .header {
@@ -128,18 +123,20 @@ body {
 	font-size: 24px;
 }
 
-.about-us{
+/*==================================================
+					About Us
+==================================================*/
+.aboutus{
 	text-align: center;
-	margin-top: 125px;
+	background: url('images/bg.jpg')no-repeat;
+	background-size: cover;
+	height: 1110px;
 }
 
-.about-us img {
-	float: left
+.about-us {
+	padding-top: 100px;
 }
 
-.about-us h1 {
-	font-size: 50px;
-}
 
 .name {
 	float: left;
