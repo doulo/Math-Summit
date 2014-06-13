@@ -129,21 +129,39 @@ table {
 .aboutus{
 	text-align: center;
 	background: url('images/bg.jpg')no-repeat;
+	opacity: .8;
 	background-size: cover;
 	height: 1110px;
 }
 
 .about-us {
 	padding-top: 100px;
+	font-size: 47px;
+	color: white;
 }
 
+.about-us img {
+	margin-top: 42px;
+	float: left;
+	margin-left: 410px;
+}
+#name  {
+	margin-top: 42px;
+	float: left;
+}
+#info {
+	margin-top: 42px;
+	float: left;
+}
 
 .name {
 	float: left;
+	padding-left: 38px;
 }
 
 .info {
 	float: left;
+	padding-left: 38px;
 }
 
 .program {
