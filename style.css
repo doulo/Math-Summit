@@ -53,7 +53,6 @@ table {
 
 @media (min-width: 1080px){}
 
-
 /*==================================================
 					BG
 ==================================================*/
@@ -136,7 +135,7 @@ table {
 
 .about-us {
 	padding-top: 100px;
-	font-size: 47px;
+	font-size: 55px;
 	color: white;
 }
 
@@ -148,24 +147,144 @@ table {
 #name  {
 	margin-top: 42px;
 	float: left;
+	font-size: 38px;
 }
 #info {
 	margin-top: 42px;
 	float: left;
 }
 
-.name {
-	float: left;
-	padding-left: 38px;
+.program {
+	padding-top:500px;
 }
 
-.info {
+
+
+/*==================================================
+					
+
+					1280px
+
+
+==================================================*/
+@media (min-width: 1280px){
+/*==================================================
+					BG
+==================================================*/
+.bg {
+	background-color: #fec56d;
+	margin:0 auto;
+	float: none;
+	height:679px;
+}
+.title {
+	font-family:"Myriad Set Pro";
+	color: white;
+}
+
+.title ul li {
 	float: left;
-	padding-left: 38px;
+	margin-top: 21px;
+	margin-left: 27px;
+}
+
+.title ul li a {
+	text-decoration:none;
+	color: white;
+}
+
+
+.nav-bar ul {
+	float: right;
+	margin-top: -22px;
+	margin-right: 81px;
+}
+
+.nav-bar ul li {
+	display: inline-block;
+}
+
+#bar {
+    height: 10px;
+    border-bottom: 1px solid white;
+    width: 240px;
+	margin-left: 23px;
+	padding-top: 33px;   
+    }
+  
+.header {
+	text-align: center;
+	padding-top: 66px;
+	color: white;
+}
+
+.logo img {
+	width: 269px;
+	margin-top:-35px;
+}
+
+.header h1 {
+	font-size: 60px;
+	padding-top: 5px;
+}
+
+.header h3 {
+	font-size: 30px;
+	padding-top: 5px;
+}
+
+.header p {
+	padding-top: 10px;
+	width: 800px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-size: 24px;
+}
+
+
+/*==================================================
+					About Us
+==================================================*/
+.aboutus{
+	text-align: center;
+	background: url('images/bg.jpg')no-repeat;
+	opacity: .8;
+	background-size: cover;
+	height: 679px;
+}
+
+.about-us {
+	padding-top: 60px;
+	font-size: 55px;
+	color: white;
+}
+
+.about-us img {
+	margin-top: -18px;
+	float: left;
+	margin-left: 150px;
+	width: 500px;
+}
+
+#name  {
+	float: left;
+	font-size: 38px;
+	padding-top: 13px;
+	margin-left: -70px;
+}
+#info {
+	margin-top: 105px;
+	float: left;
+	font-size: 18px;
+	margin-left: -302px;
+	width: 350px;
+	text-align: left;
 }
 
 .program {
 	padding-top:500px;
+}
 }
 
 /*
