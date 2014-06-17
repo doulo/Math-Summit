@@ -48,317 +48,131 @@ table {
 	border-spacing: 0;
 }
 
-
-
-/*==================================================
-					
-
-					1280px
-				13' macbook pro
-
-==================================================*/
-@media (min-width: 1280px){
-/*==================================================
-					BG
-==================================================*/
-.bg {
-	background-color: #fec56d;
-	margin:0 auto;
-	float: none;
-	height:679px;
-}
-.title {
-	font-family:"Myriad Set Pro";
-	color: white;
+#banner {
+	background-color: #FFFFFF;
+	height: 69px;
 }
 
-.title ul li {
-	float: left;
-	margin-top: 21px;
-	margin-left: 27px;
-}
-
-.title ul li a {
-	text-decoration:none;
-	color: white;
-}
-
-
-.nav-bar ul {
-	float: right;
-	margin-top: -22px;
-	margin-right: 81px;
-}
-
-.nav-bar ul li {
-	display: inline-block;
-}
-
-#bar {
-    height: 10px;
-    border-bottom: 1px solid white;
-    width: 240px;
-	margin-left: 23px;
-	padding-top: 33px;   
-    }
-  
 .header {
-	text-align: center;
-	padding-top: 66px;
+	margin:0 auto;
+	max-width: 1080px;
+	width: 100%;
+}
+
+.hname {
+	padding-top: 13px;
+	margin-left: 55px;
+	font-size: 41px;
+}
+
+.hnav {
+	float: right;
+	margin-top: -24px;
+}
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+#banner-intro {
+	background-color: orange;
+	height: 577px;
+}
+
+.b-body {
+	margin:0 auto;
+	max-width: 1080px;
+	width: 100%;
+}
+
+.banner-para {
+	float: right;
+	margin-top: -265px;
+	margin-right: 115px;
 	color: white;
 }
 
-.logo img {
-	width: 269px;
-	margin-top:-35px;
-}
-
-.header h1 {
-	font-size: 60px;
-	padding-top: 5px;
-}
-
-.header h3 {
-	font-size: 30px;
-	padding-top: 5px;
-}
-
-.header p {
-	padding-top: 10px;
-	width: 800px;
+.banner-para h1 {
 	text-align: center;
-	display: block;
-	margin: 0 auto;
+}
+.banner-para h3 {
+	text-align: center;
+}
+
+.logo {
+	padding-top: 98px;
+	padding-left: 165px;
+}
+
+.banner-para {
+	font-size: 3em;
+}
+
+#wwt {
+	height: 681px;
+	background: #FFFFFF;
+}
+
+.wwt-back {
+	margin:0 auto;
+	max-width: 1080px;
+	width: 100%;
+	padding-top: 110px;
+}
+
+.wwt-para {
+	float: right;
+	margin-right: 275px;
+	text-align: center;
+}
+.wwt-para h1 {
+	font-size: 3em;
+}
+.wwt-para h3 {
 	font-size: 24px;
 }
 
-
-/*==================================================
-					About Us
-==================================================*/
-.aboutus{
-	text-align: center;
-	background-color: #7EC0EE;
-	opacity: .8;
-	background-size: cover;
-	height: 679px;
-}
-
-.about-us {
-	padding-top: 60px;
-	font-size: 55px;
-	color: white;
-}
-
-.about-us img {
-	margin-top: -18px;
-	float: left;
-	margin-left: 150px;
-	width: 500px;
-}
-
-#name  {
-	float: left;
-	font-size: 38px;
-	margin-left: -70px;
-	margin-top: 58px;
-}
-#info {
+.wwt-icon {
 	margin-top: 105px;
-	float: left;
-	font-size: 18px;
-	margin-left: -302px;
-	width: 350px;
-	text-align: left;
+	margin-left: 281px;
 }
 
-
-/*==================================================
-				Program Schdule
-==================================================*/
-.program {
-	height: 679px;
-	background-color: green;
+#about {
+	background-color: #FAFAFA;
+	height: 577px;
 }
 
-.program h1 {
-	font-size: 60px;
-	text-align: center;
-	padding-top: 60px;
-}
-
-.images {
-	text-align: center;
-	padding-top: 89px;
-}
-
-/*==================================================
-				Location
-==================================================*/
-.location {
-	background: grey;
-	height: 679px;
-}
-
-.location h1 {
-	font-size: 60px;
-	text-align: center;
-	padding-top: 60px;
-}
-
-.location img {
-	width: 100%;
-	height: auto;
-}
-
-}
-
-
-
-
-/*==================================================
-					
-
-					1920px
-				big mac screens
-
-==================================================*/
-@media (min-width: 1920px){
-
-/*==================================================
-					BG
-==================================================*/
-.bg {
-	background-color: #fec56d;
-	margin:0 auto;
-	float: none;
-	height:1105px;
-}
-.title {
-	font-family:"Myriad Set Pro";
-	color: white;
-}
-
-.title ul li {
-	float: left;
-	margin-top: 21px;
-	margin-left: 27px;
-}
-
-.title ul li a {
-	text-decoration:none;
-	color: white;
-}
-
-
-.nav-bar ul {
-	float: right;
-	margin-top: -22px;
-	margin-right: 81px;
-}
-
-.nav-bar ul li {
-	display: inline-block;
-}
-
-#bar {
-    height: 10px;
-    border-bottom: 1px solid white;
-    width: 240px;
-	margin-left: 23px;
-	padding-top: 33px;   
-    }
-  
-.header {
-	text-align: center;
-	padding-top: 66px;
-	color: white;
-}
-
-.header h1 {
-	font-size: 77px;
-	padding-top: 46px;
-}
-
-.header h3 {
-	font-size: 47px;
-	padding-top: 33px;
-}
-
-.header p {
-	padding-top: 20px;
-	width: 800px;
-	text-align: center;
-	display: block;
-	margin: 0 auto;
-	font-size: 24px;
-}
-
-/*==================================================
-					About Us
-==================================================*/
-.aboutus{
-	text-align: center;
-	background-color: #7EC0EE;
-	opacity: .8;
-	background-size: cover;
-	height: 1110px;
+.about-img {
+	margin-top: -28px;
 }
 
 .about-us {
-	padding-top: 100px;
+	margin-top: -500px;
+	width: 550px;
+	margin-left: 550px;
+}
+
+.about-us h1 {
 	font-size: 55px;
-	color: white;
 }
 
-.about-us img {
-	margin-top: 7px;
-	float: left;
-	margin-left: 526px;
-}
-#name  {
-	margin-top: 95px;
-	float: left;
-	font-size: 38px;
-}
-#info {
-	margin-top: 180px;
-	float: left;
+.about-us p {
+	padding-top: 14px;
+	color: grey;
 }
 
-/*==================================================
-					About Us
-==================================================*/
-
-.program {
-	padding-top: 60px;
-	height: 1105px;
-}
-
-/*==================================================
-					Location
-==================================================*/
-
-.location {
-	height: 1105px;
-}
-
-.location img {
+.about-sect {
+	margin:0 auto;
+	max-width: 1080px;
 	width: 100%;
-	height: auto;
-}
-
 }
 
 
-/*.overlay {
-   background: url('images/ss.jpg') no-repeat;
-   position: fixed;
-   opacity: .50;
-   z-index: 10;
-   margin: 0 auto;
-   top: 0;
-   left: 0;
-   height: 100%;
-   width: 100%;
-   }*/
+
+
+
+
+
+
+
+
