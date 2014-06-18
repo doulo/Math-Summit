@@ -136,6 +136,26 @@ table {
 	margin-top: 105px;
 	margin-left: 281px;
 }
+.wwt-math img {
+	margin-top: 41px;
+	margin-left: -41px;
+}
+.wwt-math-para {
+	width: 300px;
+	margin-top: 5px;
+	margin-left: -31px;
+}
+
+.wwt-eng img {
+	margin-left: 70px;
+}
+
+.wwt-eng-para {
+	float: right;
+	width: 300px;
+	margin-top: -65px;
+	margin-right: 144px;
+}
 
 #about {
 	background-color: #FAFAFA;
