@@ -265,8 +265,10 @@ table {
 #math-bar {
 	margin:0 auto;
 	width: 100%;
-	background-color: grey;
+	background-color: #F5F5F5;
 	margin-top: 40px;
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
 }
 
 .math-listbar {
@@ -287,7 +289,7 @@ table {
 
 #ma-overview {
 	height: 520px;
-	background-color: orange;
+	background-color:#ececec;
 }
 
 .ma-over-back {
@@ -326,7 +328,8 @@ table {
 }
 
 #ma-package {
-	height: 425px;
+	height: auto;
+	background-color: #ffb732;
 }
 
 .ma-pack {
@@ -355,6 +358,34 @@ table {
 }
 
 .ma-c1 h1 {
+	font-size: 53px;
+}
+
+.ma-p-body {
+	margin-top: -27px;
+	margin-left: 42px;
+	margin-bottom: 25px;
+}
+
+.ma-c2 {
+	margin-left: 30px;
+}
+
+.ma-c2 h1 {
+	font-size: 53px;
+}
+
+.ma-p-body {
+	margin-top: -27px;
+	margin-left: 42px;
+	margin-bottom: 25px;
+}
+
+.ma-c3 {
+	margin-left: 30px;
+}
+
+.ma-c3 h1 {
 	font-size: 53px;
 }
 
