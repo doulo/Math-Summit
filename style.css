@@ -27,10 +27,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
+ h1, h2, h3 {
+ 	font-weight: 900;
+ }
 
 body {
 	line-height: 1;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 }
 ol, ul {
 	list-style: none;
@@ -223,7 +227,9 @@ table {
 	height: 69px;
 	position: fixed;
 	width: 100%;
+
 }
+
 
 .ma-header {
 	margin:0 auto;
@@ -233,7 +239,6 @@ table {
 
 .ma-hname {
 	padding-top: 13px;
-	margin-left: 55px;
 	font-size: 41px;
 	color: white;
 }
@@ -241,36 +246,48 @@ table {
 .ma-hnav {
 	float: right;
 	margin-top: -24px;
+	color:#ffb732;
 }
 .ma-hnav ul li {
 	display: inline-block;
-	list-style: none;
+	margin: 0 20px;
+}
+
+.ma-hnav ul li a {
+	text-decoration: none;
+	color: white;
 }
 
 #math-body {
-	margin:0 auto;
-	max-width: 1080px;
-	width: 100%;
+	background: url('images/AS_banner_02.jpg') no-repeat center; 
+	background-size: cover;
 }
 
 .math-header {
 	text-align: center;
 	padding-top: 125px;
+	margin:0 auto;
+	max-width: 1080px;
+	width: 100%;
+	padding-bottom: 120px;
+	height: 315px;
 }
 
 .math-header h1 {
-	font-size: 107px;
+	font-size: 105px;
+	margin-top: 90px;
+	color:#ffb732;
 }
 
 .math-header h3 {
 	font-size: 60px;
+	color: white;
 }
 
 #math-bar {
 	margin:0 auto;
 	width: 100%;
 	background-color: #F5F5F5;
-	margin-top: 40px;
 	border-top: 1px solid #D3D3D3;
 	border-bottom: 1px solid #D3D3D3;
 }
@@ -289,6 +306,8 @@ table {
 
 .math-listbar ul li a {
 	margin:0 20px;
+	color: #696969;
+	text-decoration: none;
 }
 
 #ma-overview {
@@ -391,6 +410,14 @@ table {
 
 .ma-c3 h1 {
 	font-size: 53px;
+}
+
+.ma-c4 h1 {
+	font-size: 50px;
+}
+
+.ma-c5 h1 {
+	font-size: 47px;
 }
 
 .ma-p-body {
