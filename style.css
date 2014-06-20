@@ -133,28 +133,30 @@ table {
 }
 
 .wwt-icon {
-	margin-top: 105px;
-	margin-left: 281px;
+
 }
 .wwt-math img {
-	margin-top: 41px;
-	margin-left: -41px;
+	margin-top: -57px;
+	margin-left: 600px;
 }
 .wwt-math-para {
-	width: 300px;
+	width: 330px;
 	margin-top: 5px;
-	margin-left: -31px;
+	float: right;
+	margin-right: -320px;
 }
 
 .wwt-eng img {
-	margin-left: 70px;
+	float: right;
+	margin-right: 182px;
+	margin-top: 115px;
 }
 
 .wwt-eng-para {
 	float: right;
-	width: 300px;
-	margin-top: -65px;
-	margin-right: 144px;
+	width: 315px;
+	margin-top: 227px;
+	margin-right: -323px;
 }
 
 #about {
@@ -219,6 +221,8 @@ table {
 #ma-banner {
 	background-color: black;
 	height: 69px;
+	position: fixed;
+	width: 100%;
 }
 
 .ma-header {
@@ -251,11 +255,11 @@ table {
 
 .math-header {
 	text-align: center;
-	padding-top: 45px;
+	padding-top: 125px;
 }
 
 .math-header h1 {
-	font-size: 115px;
+	font-size: 107px;
 }
 
 .math-header h3 {
