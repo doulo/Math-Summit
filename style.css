@@ -390,12 +390,12 @@ table {
 }
 
 .ma-c1 h1 {
-	font-size: 53px;
+	font-size: 30px;
 }
 
 .ma-p-body {
 	margin-top: -27px;
-	margin-left: 42px;
+	margin-left: 27px;
 	margin-bottom: 25px;
 }
 
@@ -404,13 +404,7 @@ table {
 }
 
 .ma-c2 h1 {
-	font-size: 53px;
-}
-
-.ma-p-body {
-	margin-top: -27px;
-	margin-left: 42px;
-	margin-bottom: 25px;
+	font-size: 30px;
 }
 
 .ma-c3 {
@@ -418,23 +412,70 @@ table {
 }
 
 .ma-c3 h1 {
-	font-size: 53px;
+	font-size: 30px;
 }
 
 .ma-c4 h1 {
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .ma-c5 h1 {
-	font-size: 47px;
+	font-size: 30px;
 }
 
-.ma-p-body {
-	margin-top: -27px;
-	margin-left: 42px;
+.ma-c5 h1 {
+	margin-bottom: 8px;
+}
+
+.ma-p-body p {
+	font-weight: 900;
+}
+
+.en-p-body {
 	margin-bottom: 25px;
+	margin-left: 27px;
 }
 
+.en-p-body p {
+	font-weight: 900;
+}
+
+.en-p-body li {
+	margin-left:23px;
+}
+
+.bc-p-body {
+	margin-bottom: 25px;
+	margin-left: 27px;
+	margin-top: -30px;
+}
+
+.bc-p-body p {
+	font-weight: 900;
+}
+
+.bc-p-body li {
+	margin-left:23px;
+}
+
+#policy {
+	height: 560px;
+	background-color: #ececec;
+}
+.policy-para {
+	margin:0 auto;
+	max-width: 1080px;
+	width: 100%;
+	padding-top: 55px;
+}
+.policy-para h1 {
+	font-size: 78px;
+}
+
+.policy-para p {
+	padding-top: 30px;
+	font-weight: 400;
+}
 
 
 
