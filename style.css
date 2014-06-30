@@ -170,7 +170,7 @@ table {
 	padding-top: 45px;
 }
 .ma-para h1 {
-	font-size: 60px;
+	font-size: 50px;
 }
 .ma-list {
 	font-size: 25px;
@@ -185,10 +185,22 @@ table {
 
 .ma-future {
 	float: right;
-	font-size: 30px;
 	margin-top: -338px;
-	width: 382px;
+	width: 50%;
 }
+
+.ma-future h1 {
+	font-size: 50px;
+	margin-top: -82px;
+	margin-bottom: 30px;
+	color: #ffb732;
+}
+
+.ma-future li {
+	font-size: 25px;
+	margin-left: 60px;
+}
+
 .ma-icon {
 	float: right;
 	margin-top: -61px;
@@ -232,7 +244,7 @@ table {
 .ma-pack h1 {
 	font-size: 78px;
 	margin-bottom: 33px;
-	padding-top: 30px;
+	padding-top: 50px;
 }
 
 .ma-pack h3 {
