@@ -241,10 +241,13 @@ table {
 	width: 100%;
 }
 
+.ma-pack {
+	padding-top: 50px;
+}
+
 .ma-pack h1 {
 	font-size: 78px;
 	margin-bottom: 33px;
-	padding-top: 50px;
 }
 
 .ma-pack h3 {
