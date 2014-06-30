@@ -4,72 +4,219 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,400,900' rel='stylesheet' type='text/css'>	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<title>Academic-Summit</title>
 </head>
 
 <body>
-	<div id="banner">
-		<div class="header">
-			<div class="hname">
-				<h1>Academic Summit</h1>
-			</div>
-			<div class="hnav">
-				<ul>
-					<li><a href="#about">About Us</a></li>
-					<li><a href="#programs">Programs</a></li>
-					<li><a href="#location">Location</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div id="banner-intro">
-		<div class="b-body">
-			<div class="logo">
-				<img src="images/ValenciaSummit.png">
-			</div>
-			<div class="banner-para">
-				<h1>Academic Summit</h1>
-				<h3> + </h3>
-				<h1>Better Placement</h1>
+	<div id="ma-banner">
+		<div class="ma-navbar">
+			<div class="ma-header">
+				<div class="ma-hname">
+					<h1>SUMMIT ∫ MATHEMATICS</h1>
+				</div>
+				<div class="ma-hnav">
+					<ul>
+						<li><a href="#schedule">Programs</a></li>
+						<li><a href="#story">Our Story</a></li>
+						<li><a href="#location">Location</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div id="wwt">
-		<div class="wwt-back">
-			<div class="wwt-para">
-				<h1>What We Teach</h1>
-				<h3>Our strategy for creating a better placement</h3>
+	<div id="math-body">
+		<div class="math-header">
+			<h1>SUMMIT ∫ MATHEMATICS</h1>
+			<h3>School and Summer Year Courses</h3>
+		</div>
+	</div>
+	<div id="math-bar">
+		<a id="overview"></a>
+		<div class="math-listbar">
+			<ul>
+				<li><a href="#overview">Overview</a></li>
+				<li><a href="#schedule">Schedule & Pricing</a></li>
+				<li><a href="#policy">Policy</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="ma-overview">
+		<div class="ma-over-back">
+			<div class="ma-para">
+				<h1>Classes We Teach</h1>
 			</div>
-			<div class="wwt-icon">
-				<a class="wwt-math" rel="group" href="#"><img src="images/mathsummit.png" alt="" /></a>
-				<a class="wwt-eng" rel="group" href="#"><img src="images/englishsummit.png" alt="" /></a>
-				<p class="wwt-math-para">This is the math paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet ipsum urna, in posuere dui imperdiet at.</p>
-				<p class="wwt-eng-para">This is the english paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet ipsum urna, in posuere dui imperdiet at.</p>
+			<div class="ma-list">
+					<li>Grades 1-6</li>
+					<li>Pre-Algebra</li>
+					<li>Algebra 1</li>
+					<li>Geometry</li>
+					<li>Algebra 2</li>
+					<li>Honors Pre-Calculus</li>
+					<li>AP AB / BC Calculus</li>
+					<li>SAT 1 - Math</li>
+					<li>SAT 2 - Math Level 2C</li>
+					<li>PSAT - MATH</li>
+					<li>AP Calc</li>
+					<h1>*Classes Taught According to Common Core Requirements*</h1>
+			</div>
+			<div class="ma-future">
+				<h1>Our Future Class</h1>
+					<li>Reading Groups</li>
+					<li>Reading Comprehension</li>
+					<li>Essay Workshops</li>
+					<li>Vocabulary Enhancement</li>
+					<li>Chemistry</li>
+					<li>Physics</li>
 			</div>
 		</div>
 	</div>
-	<div id="about">
-		<div class="about-sect">
-			<div class="about-img">
-				<img src="images/pchi.png">
+	<a id="schedule"></a>
+	<div id="ma-package">
+		<div class="ma-allpack">
+			<script>
+				$(document).ready(function(){
+				  $("#click").click(function(){
+				    $(".ma-c1").slideToggle("slow");
+				  });
+				  $("#click1").click(function(){
+				    $(".ma-c2").slideToggle("slow");
+				  });
+				  $("#click2").click(function(){
+				    $(".ma-c3").slideToggle("slow");
+				  });
+				  $("#click3").click(function(){
+				    $(".ma-c4").slideToggle("slow");
+				  });
+				  $("#click4").click(function(){
+				    $(".ma-c5").slideToggle("slow");
+				  });
+				  $("#click5").click(function(){
+				    $(".ma-c6").slideToggle("slow");
+				  });
+				});
+			</script>
+			<div class="ma-pack">
+				<h1>Math Summit Packages</h1>
+				<h3 id="click">Package 1: X<sup>1</sup> Private Tutoring</h3>
+				<img class="arrow1" src="images/arrow.png">
+				<div class="ma-c1" style="display:none">
+					<h1>X1</h1>
+					<div class="ma-p-body">
+						<li>Private Tutoring</li>
+						<li>Year Round, All Grade Level</li>
+						<li>One To One</li>
+						<li>All Math Subjects and Grade Level</li>
+						<li>SAT I</li>
+						<li>SAT II - Level 2C</li>
+						<li>AP Calculus (AB & BC)</li>
+						<p>*All Grade Levels</p>
+					</div>
+				</div>
+				<h3 id="click1">Package 2: X2 Group Tutoring</h3>
+				<img class="arrow" src="images/arrow.png">
+				<div class="ma-c2" style="display:none">
+					<h1>X2</h1>
+					<div class="ma-p-body">
+						<li>Group Tutoring</li>
+						<li>Year Round, Grade 7-12</li>
+						<li>Parents and Students can choose their own group according to skill level and subject</li>
+						<li>Algebra 1 - Calculus</li>
+						<li>SAT I</li>
+						<li>SAT II - Level 2C</li>
+						<li>AP Calculus (AB & BC)</li>
+						<p>*NOT for Grades 3-6</p>
+					</div>
+				</div>
+				<h3 id="click2">Package 3: X3 Summer Program</h3>
+				<img class="arrow" src="images/arrow.png">
+				<div class="ma-c3" style="display:none">
+					<h1>X3</h1>
+					<div class="ma-p-body">
+						<li>Summer Program</li>
+						<li>June 16th - August 18th, Grades 7-12</li>
+						<li>Intensive 8 Week Preperation Course</li>
+						<li>Intesive 4 Week Preperation Course Twice a Week</li>
+						<li>Algebra 1</li>
+						<li>Geometry</li>
+						<li>Honors Algebra 2</li>
+						<li>Trigonometry / Math Analysis</li>
+						<li>PreCalculus</li>
+						<li>AP Calculus (AB & BC)</li>
+					</div>
+				</div>
+				<h3></h3>
 			</div>
-			<div class="about-us">
-				<h1>Director Chi Chung</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet ipsum urna, in posuere dui imperdiet at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ac sollicitudin augue, nec vehicula nibh. Duis tempus porttitor quam, sed ullamcorper augue bibendum eget. Sed at consequat leo. Integer quis sollicitudin magna. In at tempor nisl. Fusce faucibus leo sit amet ante consectetur feugiat. Sed vulputate ullamcorper tempus.</p>
 			</div>
+		</div>
+	</div>
+	<a id="policy"></a>
+	<div id="policy">
+		<div class="policy-para">
+			<h1>POLICY</h1>
+			<p>1. Tuition Costs will be $50 per hourly spot per student. And $35 per hour per student for groups of 2-4.<br></p>
+			<p> 2. Tuition must be paid at the beginning of the month to reserve your spots for that month. Please have your checks ready (in an envelope) at the first week of every month for the number of hourly spots you are reserving.<br></p>
+			<p>3. Cancellations will not be refunded. No Credit will be given for the missing classes for any reasons other than extreme situations (i.e. car accident, death in the family, family emergency, etc...). Family vacations will not be considered as a reason for holding the spot. You have the option of reserving the spot by paying in advance or the spot will be given to another student on the waiting list.<br></p>
+
+			<p>4.Make up sessions will be allowed within 1 week IF AND ONLY IF a spot is available. If it is not available, there will be no refund.<br></p>
+
+			<p>5. If you decide to cancel and withdraw from the program completely, a refund will be given for the remainder of the month that you have paid for.<br></p>
+
+			<p>6. If the student is caught cheating, not completing their assigned homework due to laziness or other slothful reasons, or if there is any hint of academic dishonesty, I reserve the right to cancel your program. A refund of the remaining sessions will be returned to you. I expect full integrity from the student and the parents with regards to this issue.<br></p>
+
+			<p>If there are any other changes to my policies, I will be sending out updates and amendments via a letter an email or other forms of memo.
+			</p>
+		</div>
+	</div>
+	<a id="story"></a>
+	<div id="aboutme">
+		<div class="about-me">
+			<h1>OUR STORY</h1>
+			<img src="images/pchi.png">
+				<p>I want to sincerely thank you for entrusting me with your child’s mathematics education. Some students have been with me for over 3 years and I truly appreciate your trust and encouragement to our family. It’s been a wonderful privilege of mine to help accelerate your child’s understanding of mathematics.</br></p>
+
+				<p class="about-para">I would like to take some time to introduce myself to you so that you will understand who I am and what sort of teaching Philosophy is used for this program.</br></p>
+
+				<p class="about-para">My Bachelor’s Degree is from the University of Irvine, CA, in the field of Philosophy (2000). I actually started out as a Math Major but half way through, I felt the call to the Pastorate and changed my major to Philosophy to prepare for seminary training. I guess it was really out of curiosity of how the world thinks compared to what I’ll be learning in seminary that made me switch over.<br></p>
+
+				<p class="about-para">Right out of college, I enrolled in The Master’s Theological Seminary and received my Master’s in Divinity (2004). While serving as an assistant pastor for the College English Ministry at a local church, I applied for the Graduate Program for Mathematics at CSUN, thinking I might be able to squeeze in another Master’s Degree. I was accepted to the Graduate Math Program in Applied Mathematics at CSUN and began with 2 classes. During that time, ministry was expanding and growing and it took a lot of time and energy to keep up with everything and I realized this was not going to be possible and I had to put that pursuit on hold. It’s been on hold ever since. Maybe in the near future, I will be able to finish the Master’s Degree and perhaps go for a doctorate in Applied Math as well. It’s been my dream to teach at a University! <br></p>
+
+				<p class="about-para">After serving as an assistant pastor for about 8 years, I tutored students here and there and in 2009, I decided to plant a church called Titus Bible Church. During that time, I had to find a way to support myself and began private tutoring to make ends meet and provide for my new family and ministry. Overall, I think I’ve tutored for about 7 years and during that time I have been exposed to every level of the Math curriculum, from high school senior level Advanced Placement Calculus BC to first grade level math in various elementary schools.<br></p>
+
+				<p class="about-para">Around 2006, I received an emergency teaching request from the Principal of the Los Angeles Baptist High School (now Heritage Christian High School in North Hills) when their department chair had an almost fatal heart attack. I decided to help out and ended up teaching 3 Pre-Calculus Classes (95 students) for 2 years and was promoted to full time AP Calculus teacher. However, I had to decline the generous offer because I could not continue due to the time constraints and demands of the ministry and also it would have increased my students to over 100 per day (4 classes). It was a two year favor for the principal of that school.<br></p>
+
+				<p class="about-para">With all that experience, I now have an extensive knowledge of what different schools teach, what methods they use, and what parts of the curriculum are emphasized at each school. I believe I have mastery over not only one level or type of Mathematics, but every level from Calculus down to basic 1st grade math (I must admit that teaching a 1st grader how to count and multiply is a much more difficult task than teaching the concept of the derivative from the slope formula). Anyhow, I think you now have a general idea of who I am and what I am capable of with regards to teaching Mathematics.<br></p>
+
 		</div>
 	</div>
 	<div id="location">
-		<div class="location-sec">
-			<div class="location-map">
-				<h1>Location</h1>
-			</div>
-			<div class="location-logo">
-				<!--attribution: designed by Flaticon.com-->
-				<img src="images/location.png">
-			</div>
+		<div class="as-location">
+			<h1>Our Location</h1>
+			<p>This is where the address goes</p>
 		</div>
 	</div>
+	<div id="footer">
+		<div class="footer-width">
+			<h3>&copy  2014 Academic Summit. All rights reserved.</h3>
+			<h3>Overview</h3>
+			<h3>Schedule & Pricing</h3>
+			<h3>Policy</h3>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>

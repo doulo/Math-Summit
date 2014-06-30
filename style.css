@@ -64,25 +64,6 @@ table {
 	margin-top: -57px;
 	margin-left: 600px;
 }
-.wwt-math-para {
-	width: 330px;
-	margin-top: 5px;
-	float: right;
-	margin-right: -320px;
-}
-
-.wwt-eng img {
-	float: right;
-	margin-right: 182px;
-	margin-top: 115px;
-}
-
-.wwt-eng-para {
-	float: right;
-	width: 315px;
-	margin-top: 227px;
-	margin-right: -323px;
-}
 
 #ma-banner {
 	background-color: black;
@@ -123,7 +104,7 @@ table {
 }
 
 #math-body {
-	background: url('images/AS_banner_02.jpg') no-repeat center; 
+	background: url('../images/AS_banner_02.jpg') no-repeat center; 
 	background-size: cover;
 }
 
@@ -138,7 +119,7 @@ table {
 }
 
 .math-header h1 {
-	font-size: 105px;
+	font-size: 87px;
 	margin-top: 90px;
 	color:#ffb732;
 }
@@ -191,7 +172,23 @@ table {
 .ma-para h1 {
 	font-size: 60px;
 }
+.ma-list {
+	font-size: 25px;
+	margin-top: 30px;
+	margin-left: 59px;
+}
 
+.ma-list h1 {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.ma-future {
+	float: right;
+	font-size: 30px;
+	margin-top: -338px;
+	width: 382px;
+}
 .ma-icon {
 	float: right;
 	margin-top: -61px;
@@ -219,9 +216,6 @@ table {
 	background-color: #ffb732;
 }
 
-.ma-pack {
-	padding-top: 54px;
-}
 
 .arrow, .arrow1 {
 	float: right;
@@ -238,6 +232,7 @@ table {
 .ma-pack h1 {
 	font-size: 78px;
 	margin-bottom: 33px;
+	padding-top: 30px;
 }
 
 .ma-pack h3 {
@@ -374,7 +369,7 @@ table {
 }
 
 #location {
-	background: url('images/location1.jpg') no-repeat center;
+	background: url('../images/location1.jpg') no-repeat center;
 	background-size: cover;
 	height: 600px;
 }
